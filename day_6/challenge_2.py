@@ -8,7 +8,7 @@ banks = [int(x) for x in data]
 
 cycles = []
 
-while not banks in cycles:
+while banks not in cycles:
     cycles.append(banks)
     banks = banks[:]
 
